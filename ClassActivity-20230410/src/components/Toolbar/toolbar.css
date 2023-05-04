@@ -1,0 +1,77 @@
+.tool-bar {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #F7A4A4;
+  border: none;
+  padding: 0px;
+  align-items: flex-end;
+  z-index: 9998;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  background-color: #F7A4A4;
+}
+
+button:hover {
+  background-color: #B6E2A1;
+  border-radius: 15px;
+}
+.button-home {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../../public/assets/img/home_icon.png);
+}
+.button-home:hover {
+  background-image: url(../../../public/assets/img/home_icon_alt.png);
+}
+.button-explore {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../../public/assets/img/explore_icon.png);
+}
+.button-explore:hover {
+  background-image: url(../../../public/assets/img/explore_icon_alt.png);
+}
+.upload-button {
+  border-radius: 15px 15px 0 0;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border: none;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../../public/assets/img/upload_icon.png);
+}
+.upload-button:hover {
+  background-image: url(../../../public/assets/img/upload_icon_alt.png);
+}
+.button-notification {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../../public/assets/img/notification_icon.png);
+}
+.button-notification:hover {
+  background-image: url(../../../public/assets/img/notification_icon_alt.png);
+}
+.button-profile {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../../public/assets/img/profile_icon.png);
+}
+.button-profile:hover {
+  background-image: url(../../../public/assets/img/profile_icon_alt.png);
+}
