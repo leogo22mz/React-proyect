@@ -14,11 +14,7 @@
 }
 
 button {
-  width: 50px;
-  height: 50px;
-  padding: 0;
-  border: none;
-  background-color: #F7A4A4;
+
 }
 
 button:hover {
@@ -26,6 +22,11 @@ button:hover {
   border-radius: 15px;
 }
 .button-home {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  background-color: #F7A4A4;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,8 +34,15 @@ button:hover {
 }
 .button-home:hover {
   background-image: url(../../../public/assets/img/home_icon_alt.png);
+  transition: cubic-bezier(0.075, 0.0082, 0.00165, 1) 0.2s;
+
 }
 .button-explore {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  background-color: #F7A4A4;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,8 +50,15 @@ button:hover {
 }
 .button-explore:hover {
   background-image: url(../../../public/assets/img/explore_icon_alt.png);
+  transition: cubic-bezier(0.075, 0.0082, 0.00165, 1) 0.2s;
+
 }
 .upload-button {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  background-color: #F7A4A4;
   border-radius: 15px 15px 0 0;
   width: 60px;
   height: 60px;
@@ -56,8 +71,15 @@ button:hover {
 }
 .upload-button:hover {
   background-image: url(../../../public/assets/img/upload_icon_alt.png);
+  transition: cubic-bezier(0.075, 0.0082, 0.00165, 1) 0.2s;
+
 }
 .button-notification {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  background-color: #F7A4A4;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,8 +87,14 @@ button:hover {
 }
 .button-notification:hover {
   background-image: url(../../../public/assets/img/notification_icon_alt.png);
+  transition: cubic-bezier(0.075, 0.0082, 0.00165, 1) 0.2s;
 }
 .button-profile {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  background-color: #F7A4A4;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,4 +102,5 @@ button:hover {
 }
 .button-profile:hover {
   background-image: url(../../../public/assets/img/profile_icon_alt.png);
+  transition: cubic-bezier(0.075, 0.0082, 0.00165, 1) 0.2s;
 }

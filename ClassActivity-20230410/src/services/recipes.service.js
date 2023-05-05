@@ -1,7 +1,7 @@
 const recipes = [
   {
     title: "Curry",
-    img: "fridge.png",
+    img: "curry.jpg",
     difficulty: 70000,
     ingredients: ["400 g. de contramuslo de pollo",
     "½ paquete de curry japonés",
@@ -12,7 +12,8 @@ const recipes = [
     " ½ cucharadita de sal"," ½ cucharadita de pimienta negra",
     " Agua (hasta que cubra el pollo)",
     " Aceite vegetal"],
-    steps: ["a) Cortar el pollo en dados grandecitos",
+    steps: [
+    "Cortar el pollo en dados grandecitos",
     " Pelar las patatas, cortar en trozos grandes al gusto y para que no se oxiden, poner en agua con sal",
     " Cortar la cebolla en juliana y la zanahoria en trozos de un bocado",
     " Picar los ajos y el jengibre",
