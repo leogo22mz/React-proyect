@@ -28,7 +28,11 @@ function RecipeList() {
               <div className="car-list-img">
                 <img src={`/assets/img/${c.img}`} alt="car" />
               </div>
-
+              <ul>
+                {c.ingredients.map((ingredient) => (
+                  <li>{ingredient}</li>
+                ))}
+              </ul>
             </div>
           );
         })
