@@ -28,16 +28,33 @@ function RecipeList() {
               <div className="car-list-img">
                 <img src={`/assets/img/${c.img}`} alt="car" />
               </div>
-              <ul>
-                {c.ingredients.map((ingredient) => (
-                  <li>{ingredient}</li>
-                ))}
-              </ul>
+              <div className="car-list-description">
+                <br/>
+                <h3>INGREDIENTS:</h3>
+                <ul>
+                  {c.ingredients &&
+                    c.ingredients.map((ingredient) => {
+                      return <li key={ingredient}>{ingredient}</li>;
+                    })}
+                </ul>
+                <br/>
+                <h3>STEPS:</h3>
+                {Array.isArray(c.steps) ? (
+                  <ol>
+                    {c.steps.map((step) => {
+                      return <li key={step}>{step}</li>;
+                    })}
+                  </ol>
+                ) : (
+                  <p>No steps found.</p>
+                )}
+              </div>
             </div>
           );
         })
     );
   };
+  
   
   
 

@@ -1,4 +1,3 @@
-import CarList from "../../components/carList/CarList";
 import RecipeList from "../../components/recipeList/RecipeList";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
