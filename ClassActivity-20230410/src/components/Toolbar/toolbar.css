@@ -13,12 +13,10 @@
   z-index: 9998;
 }
 
-button {
 
-}
 
 button:hover {
-  background-color: #B6E2A1;
+  background-color: #b5e2a1;
   border-radius: 15px;
 }
 .button-home {
