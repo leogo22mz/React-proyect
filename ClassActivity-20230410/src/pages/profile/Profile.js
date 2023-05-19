@@ -6,13 +6,13 @@ function Profile() {
     <>
       <Header />
       <body>
-        <div class="card">
-          <img class="profile-pic" src="/assets/img/profile.png" alt="Descripción de la imagen"></img>
+        <div className="card">
+          <img className="profile-pic" src="/assets/img/profile.png" alt="Descripción de la imagen"></img>
           <h1>Leonel Cruz Go</h1>
-          <p class="title">This is your status</p>
+          <p className="title">This is your status</p>
           <p>This is your biography</p>
           <br></br>
-          <p><button class="button-pro">Edit profile(WIP)</button></p>        
+          <p><button className="button-pro">Edit profile(WIP)</button></p>        
           </div>
 
       </body>
