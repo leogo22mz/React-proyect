@@ -2,8 +2,8 @@ import "./Header.css";
 
 function Header() {
   return (
-    <div class="top-bar">
-      <a class="logo" href="/">ECFood</a>
+    <div className="top-bar">
+      <a className="logo" href="/">ECFood</a>
     </div>
   );
 }
