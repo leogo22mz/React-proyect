@@ -31,6 +31,7 @@ button:hover {
   background-image: url(../../../public/assets/img/home_icon.png);
 }
 .button-home:hover {
+  opacity: 100%;
   background-image: url(../../../public/assets/img/home_icon_alt.png);
   transition: cubic-bezier(0.075, 0.0082, 0.00165, 1) 0.2s;
 
@@ -47,6 +48,7 @@ button:hover {
   background-image: url(../../../public/assets/img/explore_icon.png);
 }
 .button-explore:hover {
+  opacity: 100%;
   background-image: url(../../../public/assets/img/explore_icon_alt.png);
   transition: cubic-bezier(0.075, 0.0082, 0.00165, 1) 0.2s;
 
@@ -69,6 +71,7 @@ button:hover {
 }
 .upload-button:hover {
   background-image: url(../../../public/assets/img/upload_icon_alt.png);
+  opacity: 100%;
   transition: cubic-bezier(0.075, 0.0082, 0.00165, 1) 0.2s;
 
 }
@@ -84,6 +87,7 @@ button:hover {
   background-image: url(../../../public/assets/img/notification_icon.png);
 }
 .button-notification:hover {
+  opacity: 100%;
   background-image: url(../../../public/assets/img/notification_icon_alt.png);
   transition: cubic-bezier(0.075, 0.0082, 0.00165, 1) 0.2s;
 }
@@ -99,6 +103,7 @@ button:hover {
   background-image: url(../../../public/assets/img/profile_icon.png);
 }
 .button-profile:hover {
+  opacity: 100%;
   background-image: url(../../../public/assets/img/profile_icon_alt.png);
   transition: cubic-bezier(0.075, 0.0082, 0.00165, 1) 0.2s;
 }
