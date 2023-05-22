@@ -67,6 +67,9 @@
   }
   
   /* Extra small devices (phones, 600px and down) */
+  .car-list-container {
+    width: 60vw;
+  }
   /* @media only screen and (max-width: 600px) {...} */
   
   /* Small devices (portrait tablets and large phones, 600px and up) */

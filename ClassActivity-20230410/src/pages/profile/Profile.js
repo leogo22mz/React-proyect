@@ -1,5 +1,7 @@
 import Header from "../../components/header/Header";
 import Toolbar from "../../components/Toolbar/toolbar";
+import Footer from "../../components/footer/Footer";
+
 import "./Profile.css";
 function Profile() {
   return (
@@ -12,11 +14,11 @@ function Profile() {
           <p className="title">This is your status</p>
           <p>This is your biography</p>
           <br></br>
-          <p><button className="button-pro">Edit profile(WIP)</button></p>        
-          </div>
+          <p><button className="button-pro">Edit profile(WIP)</button></p>
+        </div>
 
       </body>
-
+      <Footer />
       <Toolbar />
     </>
   );

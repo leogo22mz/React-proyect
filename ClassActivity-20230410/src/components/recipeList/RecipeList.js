@@ -98,7 +98,7 @@ function RecipeList() {
 
   return (
     <>
-      <input type="search" onChange={handleChange} />
+      {/* <input type="search" onChange={handleChange} /> */}
       <div className="main-container">
         <div className="car-list-container">{showRecipes()}</div>
         <div className="right-text"></div>
