@@ -56,11 +56,12 @@ function Toolbar() {
 
   return (
     <div className="tool-bar">
-      <button id="buttonH" className="button-home"></button>
-      <button id="buttonE" className="button-explore"></button>
-      <button id="buttonU" className="upload-button"></button>
-      <button id="buttonN" className="button-notification"></button>
-      <button id="buttonP" className="button-profile"></button>
+      <h1 className= "toolbar-title">ECFood</h1>
+      <button id="buttonH" className="button-home"><h1 className="home-h1">Home</h1></button>
+      <button id="buttonE" className="button-explore"><h1 className="explore-h1">Explore</h1></button>
+      <button id="buttonU" className="upload-button"><h1 className="upload-h1">Upload</h1></button>
+      <button id="buttonN" className="button-notification"><h1 className="notification-h1">Notifications</h1></button>
+      <button id="buttonP" className="button-profile"><h1 className="profile-h1">Profile</h1></button>
     </div>
   );
 }
