@@ -56,7 +56,7 @@ function Toolbar() {
 
   return (
     <div className="tool-bar">
-      <h1 className= "toolbar-title">ECFood</h1>
+      <img src="/assets/img/logo.png" alt="Descruocuib de imagen" className= "toolbar-title"></img>
       <button id="buttonH" className="button-home"><h1 className="home-h1">Home</h1></button>
       <button id="buttonE" className="button-explore"><h1 className="explore-h1">Explore</h1></button>
       <button id="buttonU" className="upload-button"><h1 className="upload-h1">Upload</h1></button>
