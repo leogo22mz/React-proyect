@@ -86,6 +86,9 @@
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     .car-list-container {
+      object-fit: cover;
+      justify-content: center;
+      position: relative; 
       width: 60vw;
     }
   }
@@ -106,8 +109,10 @@
   @media only screen and (min-width: 1200px) {
     .car-list-container {
       width: 200px;
-      flex-basis: 50%;
-      max-width: 400px;
+      object-fit: cover;
+      justify-content: center;
+      position: relative; 
+      left: 400px;
     }
     .car-list-img {
       width: 1000px;
