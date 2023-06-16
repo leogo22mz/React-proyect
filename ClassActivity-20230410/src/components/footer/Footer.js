@@ -2,7 +2,6 @@ import "./Footer.css";
 import React, { useEffect } from "react";
 
 function Footer() {
-  //HREF RSS
   useEffect(() => {
     const buttonRSS = document.getElementById("button-R");
     buttonRSS.addEventListener("click", buttonRS);
@@ -12,6 +11,7 @@ function Footer() {
   function buttonRS() {
     window.location.href = '/assets/rss.xml';
   }
+
   return (
     
     <footer className="footer">
@@ -21,7 +21,7 @@ function Footer() {
         <button id="button-T" className="button-tw"></button>
         <button id="button-F" className="button-fb"></button>
         <button id="button-Y" className="button-yt"></button>
-        <button id="button-R" className="button-rss"><a href="\assets\rss.xml"></a>
+        <button id="button-R" className="button-rss">
         </button>
       </div>
       <br />

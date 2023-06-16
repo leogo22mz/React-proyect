@@ -4,7 +4,7 @@ import "./toolbar.css";
 function Toolbar() {
   //HREF HOME
   useEffect(() => {
-    const buttonH = document.getElementById("buttonH");
+    const buttonH = document.getElementById("button-home");
     buttonH.addEventListener("click", buttonHome);
     return () => buttonH.removeEventListener("click", buttonHome);
   }, []);
@@ -14,7 +14,7 @@ function Toolbar() {
   }
   //HREF EXPLORE
   useEffect(() => {
-    const buttonE = document.getElementById("buttonE");
+    const buttonE = document.getElementById("button-explore");
     buttonE.addEventListener("click", buttonExplore);
     return () => buttonE.removeEventListener("click", buttonExplore);
   }, []);
@@ -24,7 +24,7 @@ function Toolbar() {
   }
   //HREF UPLOAD
   useEffect(() => {
-    const buttonU = document.getElementById("buttonU");
+    const buttonU = document.getElementById("upload-button");
     buttonU.addEventListener("click", buttonUpload);
     return () => buttonU.removeEventListener("click", buttonUpload);
   }, []);
@@ -34,7 +34,7 @@ function Toolbar() {
   }
   //HREF NOTIFICATION
   useEffect(() => {
-    const buttonN = document.getElementById("buttonN");
+    const buttonN = document.getElementById("button-notification");
     buttonN.addEventListener("click", buttonNotification);
     return () => buttonN.removeEventListener("click", buttonNotification);
   }, []);
@@ -44,7 +44,7 @@ function Toolbar() {
   }
   //HREF PROFILE
   useEffect(() => {
-    const buttonP = document.getElementById("buttonP");
+    const buttonP = document.getElementById("button-profile");
     buttonP.addEventListener("click", buttonProfile);
     return () => buttonP.removeEventListener("click", buttonProfile);
   }, []);
@@ -56,12 +56,12 @@ function Toolbar() {
 
   return (
     <div className="tool-bar">
-      <img src="/assets/img/logo.png" alt="Descruocuib de imagen" className= "toolbar-title"></img>
-      <button id="buttonH" className="button-home"><h1 className="home-h1">Home</h1></button>
-      <button id="buttonE" className="button-explore"><h1 className="explore-h1">Explore</h1></button>
-      <button id="buttonU" className="upload-button"><h1 className="upload-h1">Upload</h1></button>
-      <button id="buttonN" className="button-notification"><h1 className="notification-h1">Notifications</h1></button>
-      <button id="buttonP" className="button-profile"><h1 className="profile-h1">Profile</h1></button>
+      <img src="/assets/img/logo.png" alt="Descripion de imagen" className= "toolbar-title"></img>
+      <button id="button-home" className="button-home"><h1 className="home-h1">Home</h1></button>
+      <button id="button-explore" className="button-explore"><h1 className="explore-h1">Explore</h1></button>
+      <button id="upload-button" className="upload-button"><h1 className="upload-h1">Upload</h1></button>
+      <button id="button-notification" className="button-notification"><h1 className="notification-h1">Notifications</h1></button>
+      <button id="button-profile" className="button-profile"><h1 className="profile-h1">Profile</h1></button>
     </div>
   );
 }
